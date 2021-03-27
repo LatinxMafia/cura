@@ -4,7 +4,7 @@ import 'firebase/firestore'
 import 'firebase/storage'
 
 const firebaseConfig = {
-  // CONFIG FILES
+  // CONFIG VARIABLES
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
