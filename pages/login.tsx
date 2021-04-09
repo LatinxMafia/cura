@@ -1,33 +1,28 @@
-import styled from "styled-components";
-import CurrencyFormat from "react-currency-format";
+import styled from 'styled-components'
+import CurrencyFormat from 'react-currency-format'
 
 // Component imports
-import { Container } from "../styles/";
+import { Container } from '../styles/'
 
 const Login = () => {
   return (
     <StyledContainer>
-      <div className="intro-text">
+      <div className='intro-text'>
         <h1>Descubre tu nueva marca favorita.</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suscipit nunc
-          ut facilisis pharetra, et nisl. Auctor tristique elementum
-          pellentesque id integer.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suscipit nunc ut facilisis pharetra, et nisl. Auctor
+          tristique elementum pellentesque id integer.
         </p>
       </div>
 
-      <div className="input-container">
+      <div className='input-container'>
         <p>Ingresa tu número celular para continuar</p>
-        <CurrencyFormat
-          format="+## (###) ###-####"
-          mask="_"
-          placeholder="+00 (000) 000-0000"
-        />
+        <CurrencyFormat format='+## (###) ###-####' mask='_' placeholder='+00 (000) 000-0000' />
         <button>Continuar</button>
       </div>
     </StyledContainer>
-  );
-};
+  )
+}
 
 const StyledContainer = styled(Container)`
   margin-top: 4rem;
@@ -82,6 +77,6 @@ const StyledContainer = styled(Container)`
       line-height: 24px;
     }
   }
-`;
+`
 
-export default Login;
+export default Login
