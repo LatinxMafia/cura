@@ -58,7 +58,7 @@ Leaving: "transition ease-in-out duration-300 transform"
                   className="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                   onClick={() => setShowSidebar(!showSidebar)}
                 >
-                  <span className="sr-only">Close sidebar</span>
+                  <span className="sr-only">Close sidebar hola hola</span>
                   {/* <!-- Heroicon name: outline/x --> */}
                   <svg
                     className="h-6 w-6 text-white"
