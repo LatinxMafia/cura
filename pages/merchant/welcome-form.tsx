@@ -3,17 +3,17 @@ import React from "react";
 const welcomeForm = () => {
   return (
     <div className="container mx-auto w-full text-m text-gray-600">
-      <h1 className="text-2xl font-bold text-gray-800 py-5">Bienvenidx!</h1>
-      <p className="py-3">
+      <h1 className="text-2xl font-bold text-gray-800 my-3">Bienvenidx!</h1>
+      <p className="my-3">
         Por favor rellena este formulario para completar la aplicación de tu
         marca para la próxima edición de Cura.
       </p>
 
-      <form>
-        <h5 className="text-lg font-bold text-purple-600 py-3">
+      <form className='py-4'>
+        <h5 className="text-lg font-bold text-purple-600">
           Información de la marca
         </h5>
-        <section className="grid grid-cols-2 gap-3">
+        <section className="grid grid-cols-2 gap-3 py-4">
           <label>
             <p className='font-semibold'>Nombre de la marca</p>
             <input type='text' placeholder="ej. Palitos de Mora" className='px-2 py-3 rounded placeholder-gray-500 w-80 my-2'></input>
