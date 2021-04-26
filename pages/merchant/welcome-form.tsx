@@ -9,7 +9,7 @@ const welcomeForm = () => {
         marca y así participar en la próxima edición de Cura.
       </p>
 
-      <form className='py-4 md:w-11/12'>
+      <form className='py-3 md:w-11/12'>
         <h5 className="text-lg font-bold text-purple-600 mb-4 text-center md:text-left md:m-0">
           Información de la marca
         </h5>
@@ -62,7 +62,7 @@ const welcomeForm = () => {
           </label>
         </section>
 
-        <h5 className="text-lg font-bold text-purple-600 mb-3 mt-3 py-2 text-center md:text-left md:m-0">
+        <h5 className="text-lg font-bold text-purple-600 mb-3 mt-4 py-2 text-center md:text-left md:mt-2 md:mb-0">
           Información personal
         </h5>
         <section className="grid grid-cols-1 gap-3 justify-items-center align-center md:grid-cols-2 md:justify-items-start">
