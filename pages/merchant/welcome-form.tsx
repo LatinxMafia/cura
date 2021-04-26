@@ -16,11 +16,11 @@ const welcomeForm = () => {
         <section className="grid grid-cols-1 justify-items-center align-center gap-3 py-2 md:grid-cols-2 md:justify-items-start">
           <label>
             <p className='font-semibold'>Nombre de la marca</p>
-            <input type='text' placeholder="ej. Palitos de Mora" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. Palitos de Mora" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'> Categoría</p>
-            <select name="categories" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'>
+            <select name="categories" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'>
               <option value="categ1">Categ1</option>
               <option value="categ2">Categ2</option>
               <option value="categ3">Categ3</option>
@@ -30,12 +30,12 @@ const welcomeForm = () => {
           <label>
             <p className='font-semibold'> Ciudad</p>
 
-            <input type='text' placeholder="ej. Monterrey" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. Monterrey" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'> ¿Tu marca vende en línea?</p>
 
-            <select name="online-sell" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500' >
+            <select name="online-sell" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400' >
               <option value="categ1">Categ1</option>
               <option value="categ2">Categ2</option>
               <option value="categ3">Categ3</option>
@@ -48,17 +48,17 @@ const welcomeForm = () => {
           <label>
             <p className='font-semibold'>Instagram (Pega tu enlace aquí)</p>
 
-            <input type='text'placeholder="ej. https://www.instagram.com/tumarca" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text'placeholder="ej. https://www.instagram.com/tumarca" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'> Website (Pega tu enlace aquí)</p>
 
-            <input type='text' placeholder="ej. www.tuwebsite.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. www.tuwebsite.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'>TikTok (Pega tu enlace aquí)</p>
 
-            <input type='text' placeholder="ej. https://www.tiktok.com/@tumarca" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. https://www.tiktok.com/@tumarca" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
         </section>
 
@@ -69,19 +69,19 @@ const welcomeForm = () => {
           <label>
             <p className='font-semibold'>  Responsable de la marca</p>
 
-            <input type='text' placeholder="ej. Alex Ramírez" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. Alex Ramírez" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'> Número de celular</p>
 
-            <input  type='text' placeholder="ej. 984-000-00-00" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input  type='text' placeholder="ej. 984-000-00-00" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
           <label>
             <p className='font-semibold'> Correo electrónico</p>
 
-            <input type='text' placeholder="ej. tu@correo.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
+            <input type='text' placeholder="ej. tu@correo.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-400 border-gray-400'></input>
           </label>
-          <button className='relative flex gap-2 justify-center w-80 md:w-28 p-3 px-4 md:my-6 md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar <img className='w-1/16'src='/assets/arrow-right.svg'></img></button>
+          <button className='relative flex gap-2 justify-center w-80 md:w-28 p-3 px-4 md:p-2 md:my-6 md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar <img className='w-1/16'src='/assets/arrow-right.svg'></img></button>
         </section>
       </form>
      <img className='hidden xl:block xl:absolute xl:bottom-1/4 xl:right-8'src='/assets/happy-place.png'></img>
