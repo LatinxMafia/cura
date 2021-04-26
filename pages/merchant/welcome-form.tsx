@@ -9,7 +9,7 @@ const welcomeForm = () => {
         marca y así participar en la próxima edición de Cura.
       </p>
 
-      <form className='py-4 w-11/12'>
+      <form className='py-4 md:w-11/12'>
         <h5 className="text-lg font-bold text-purple-600 mb-4 text-center md:text-left md:m-0">
           Información de la marca
         </h5>
@@ -81,7 +81,7 @@ const welcomeForm = () => {
 
             <input type='text' placeholder="ej. tu@correo.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
           </label>
-          <button className='w-80 md:w-28 p-3 px-4 md:my-6 relative md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar</button>
+          <button className='flex gap-2 justify-center w-80 md:w-28 p-3 px-4 md:my-6 relative md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar <img className='w-1/16'src='/assets/arrow-right.svg'></img></button>
         </section>
       </form>
      
