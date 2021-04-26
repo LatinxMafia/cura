@@ -81,10 +81,10 @@ const welcomeForm = () => {
 
             <input type='text' placeholder="ej. tu@correo.com" className='w-80 my-2 px-2 py-2 rounded placeholder-gray-500'></input>
           </label>
-          <button className='flex gap-2 justify-center w-80 md:w-28 p-3 px-4 md:my-6 relative md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar <img className='w-1/16'src='/assets/arrow-right.svg'></img></button>
+          <button className='relative flex gap-2 justify-center w-80 md:w-28 p-3 px-4 md:my-6 md:left-52 bg-purple-600 text-white font-semibold rounded'>Enviar <img className='w-1/16'src='/assets/arrow-right.svg'></img></button>
         </section>
       </form>
-     
+     <img className='hidden xl:block xl:absolute xl:bottom-1/4 xl:right-16'src='/assets/happy-place.png'></img>
     </div>
   );
 };
